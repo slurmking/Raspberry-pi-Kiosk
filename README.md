@@ -12,7 +12,7 @@ Steps
 * In Raspi Imager install raspian 32bit  
 * Press CTRL+X to access advanced settings   
 * Enable SSH  
-* Rename Pi to TV-ASSET  
+* Set pi hostname
 * Add wifi info  
 * Change locale to your location
 
