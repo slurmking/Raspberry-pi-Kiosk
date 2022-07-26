@@ -33,7 +33,6 @@ The install script will do the following
 * configure firewall to accept SSH  
 * Create a videokisok and webkiosk service  
 * Configure OS to hide unnecessary OS elements  
-* Add intercap logo to splash screen  
 
 ### Pick Kiosk Type
 You can now choose your kiosk type below
