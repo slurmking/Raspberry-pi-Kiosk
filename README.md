@@ -34,7 +34,6 @@ The install script will do the following
 * Create a videokisok and webkiosk service  
 * Configure OS to hide unnecessary OS elements  
 * Add intercap logo to splash screen  
-* Install Connectwise Screen Connect  
 
 ### Pick Kiosk Type
 You can now choose your kiosk type below
