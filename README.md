@@ -14,7 +14,7 @@ Steps
 * Enable SSH  
 * Rename Pi to TV-ASSET  
 * Add wifi info  
-* Change locale to US and Denver timezone  
+* Change locale to your location
 
 ### Install 
 * Find the IP of the raspberry pi by typing `ip a` command 
