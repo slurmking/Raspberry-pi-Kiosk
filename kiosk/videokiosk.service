@@ -1,0 +1,15 @@
+[Unit]
+Description=videokiosk
+
+[Service]
+RuntimeMaxSec=3600
+Restart=always
+RestartSec=3
+User=pi
+Environment="DISPLAY=:0"
+ExecStart=/usr/bin/cvlc --playlist-autostart --loop --random --playlist-tree /home/pi/kiosk/playlist/ -L --no-video-title-show -f --no-qt-privacy-ask 
+WorkingDirectory=/home/pi
+
+[Install]
+WantedBy=multi-user.target
+WorkingDirectory=/home/pi

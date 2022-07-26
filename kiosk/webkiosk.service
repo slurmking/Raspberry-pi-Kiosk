@@ -1,0 +1,13 @@
+[Unit]
+Description=webkiosk
+
+[Service]
+User=pi
+ExecStart=/home/pi/kiosk/chromium.sh
+RuntimeMaxSec=3600
+Restart=always
+[Install]
+WantedBy=multi-user.target
+
+
+
